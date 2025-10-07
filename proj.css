@@ -1,0 +1,89 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ECE7DD;
+    
+     margin:0 200px 0 200PX  ;
+}
+.skillsection{
+    padding:50px 20px;
+    text-align: center;
+
+}
+
+
+section h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 60px;
+}
+section p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skills h2{
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+.focus{
+    align-items: center;
+}
+.skills span{
+    color: rgb(0, 0, 0);
+
+}
+.list ul li{
+    display: flex;
+    
+    list-style: none;  
+    align-items: center; 
+    margin-bottom: 30px;
+    font-size: larger;
+    color: rgb(0, 0, 0);   
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    
+}
+label{  
+    border: 200px;
+    width: 100px;
+    height: 30px;
+    background-color:#720505;
+    color: aliceblue;
+    
+}
+progress {
+  border-radius: 1px solid #ccc;
+  border: none;  
+  width: 300px;
+    height: 30px;
+    
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+progress::-webkit-progress-value {
+  background:#3a0404;
+
+}
+
+.bar{
+    border-radius: 100px;
+}
+
+ 
